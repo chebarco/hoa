@@ -1,0 +1,612 @@
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header  h1{
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+    text-align: left;
+    color: #F1D5FD;
+}
+
+
+
+#header{
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+  
+}
+
+
+.navbar-sm div{
+    background-color: #FCF7C9;
+    display: flex;
+    flex-direction: none;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.navbar-md{
+    display: none;
+}
+
+
+#mi-menu{
+    padding-top: 0.9375rem;
+    display: none;
+    background-color: #FCF7C9;
+    
+    
+}
+#mi-menu:target{
+    display: block;
+    
+}
+
+#mi-menu ul li{
+    list-style: none;
+}
+#mi-menu ul li a{
+    text-decoration: none;
+    color: #1D1D1B;
+    line-height: 3.125rem;
+    font-weight: bold;
+    font-size: 0.875rem;
+}
+
+#mi-menu ul li a:hover{
+    color:#232946;
+    
+}
+.fas{
+    color: #1D1D1B;
+    margin-right: 2.5rem;
+}
+.fotorama{
+   padding-top: 6.25rem;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+
+#container {
+    width: 100%;
+    margin: 0 auto;
+}
+.container {
+    width: 100%;
+    margin: 0 auto;
+   
+}
+
+
+
+#app p{
+    
+    margin-top: 40px;
+    font-size: 14px;
+    width: 90%;
+    text-align: left;
+    line-height: 20px;
+    margin-left: 10px;
+}
+
+#app .textoapp{
+    font-size: 14px;
+    width: 90%;
+    text-align: left;
+    line-height: 20px;
+    margin-left: 10px; 
+}
+
+#app .img-fluid{
+    width: 100%;
+}
+
+#video{
+    text-align: center;
+ padding-top: 5rem;
+ color: #1D1D1B;
+}
+
+#video iframe{
+    margin-top: 1.5625rem;
+    width: 90%;
+
+}
+#video h2{
+ color: #F1D5FD;
+    font-size: 18px;
+}
+#video p{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+
+
+#reseñas article{
+    margin-left: 10px;
+    margin-right: 10px;
+   border-radius: 10px;
+    background-color: #b8c1ec;
+    box-shadow: 15px 5px 5px grey;
+}
+#reseñas{
+    margin-top: 100px;
+}
+
+#reseñas h2{
+    
+    margin-bottom: 50px;
+    color: #F1D5FD;
+    font-size: 18px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#reseñas h3{
+    padding-top: 30px;
+    font-size: 16px;
+    text-align: center;
+}
+
+#reseñas .img-fluid{
+    margin-left: 25px;
+    border-radius: 250px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#reseñas .estrella{
+    margin-left: 100px;
+}
+#reseñas .estrellas{
+    margin-left: 100px;
+}
+#reseñas p{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+
+
+footer{
+    background-color: rgba(212, 212, 212, 0.479);
+    color: rgb(250, 153, 242);
+    font-size: 1rem;
+text-align: center;
+    padding-top: 3.125rem;
+    padding-bottom: 3.125rem;
+}
+
+footer li{
+    width: 90%;
+    list-style: none;
+}
+
+
+.contenedor{
+    width: 100%;
+    padding: 1% 16px;
+    margin: 0 auto;
+}
+
+h2,p{
+ margin: 0;
+ padding-bottom: 1.25rem;
+ text-align: center;
+}
+
+
+
+#comentario{
+    margin-top: 100px;
+    background-color: #faeee7;
+}
+
+#comentario h2{
+    font-size: 18px;
+    padding-top:50px;
+    text-align: center;
+}
+
+#comentario p{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+#comentario .estrella{
+        margin-left: 110px;
+    
+}
+label{
+    display: block;
+    margin: 1rem 0;
+}
+
+#nombres, #email, #mensaje{
+   display: block;
+   margin: .5rem 0;
+   padding: .5rem;
+   border: 0;
+   outline: none;
+   width: 100%;
+}
+
+button{
+    background-color:#33272a;
+    border-radius: 10px;
+    color: #b8c1ec;
+    width: 6rem;
+    height: 2rem;
+    border: none;
+    margin: 1rem 0;
+}
+
+
+ 
+
+/*---------------------------------------------movil tamaño medio ---------------------------------------------*/
+
+
+
+@media (min-width:540px) {
+
+
+    #mi-menu{
+        background-color: pink;
+        
+        
+    }
+ h1{
+        font-size:22px;
+        text-align: center;
+        color: #8bd3dd;
+    }
+   
+    
+   
+#video h2{
+    font-size: 20px;
+
+}
+#reseñas{
+    margin-top: 100px;
+    
+}
+
+#reseñas h2{
+    margin-bottom: 50px;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#reseñas .img-fluid{
+    
+    margin-left: 130px;
+    border-radius: 250px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#reseñas .estrella{
+    margin-left: 50px;
+}
+
+#reseñas p{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 14px;
+}
+  
+
+#comentario .img-fluid{
+    margin-left: 75px;
+
+}
+#comentario .estrella{
+    margin-left: 155px;
+
+}
+   
+}
+
+
+
+
+
+
+
+
+
+
+/*------------------------------------------------------tablet---------------------------------------------*/
+@media (min-width:768px) {
+
+  
+ 
+    .navbar-sm{
+        display: none;
+    }
+
+  header h1{
+      font-size: 40px ;
+      text-align: center;
+
+  }  
+  #video h2{
+      font-size: 30px;
+  }
+  #reseñas h2{
+    font-size: 30px;
+}
+
+#comentario h2{
+    font-size: 30px;
+}
+.navbar-md{
+    display: flex;
+    align-items: center;
+    background-color: #FCF7C9;
+    position:fixed;
+    z-index: 2;
+    width: 100%;
+    
+}
+
+.menu li{
+    padding-left: 1rem;
+    list-style: none;
+    font-size: 0.63rem;
+    font-weight: bold;
+    padding-right: 1.875rem;
+
+    }
+
+.menu{
+    display: flex;
+    padding: 0;
+
+}
+
+
+.menu li a{
+    text-decoration: none;
+   color: #1D1D1B;
+}
+.menu li a:hover{
+   color: #232946;
+}
+
+
+.menu.activado{
+    display: flex;
+}
+
+
+
+.fotorama{
+    padding-top: 12rem;
+}
+
+
+#app p{
+    margin-left: 20px;
+    font-size: 18px;
+text-align: center;
+}
+
+#app .textoapp{
+    margin-left: 20px;
+    font-size: 18px;
+    text-align: center;
+}   
+#video p{
+    font-size: 18px;
+
+}
+
+#reseñas .img-fluid{
+    
+    margin-left: 250px;
+}
+#reseñas p{
+    font-size: 18px;
+    width: 50%;
+    margin-left: 190px;
+}
+#reseñas .estrella{
+    margin-left: 100px;
+}
+#comentario .img-fluid{
+    margin-left: 190px;
+
+}
+#comentario p{
+    font-size: 18px;
+
+}
+#descarga {
+    display: flex;
+   
+}
+#descarga h2{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+#descarga .footer{
+    margin-left: 350px;
+}
+}
+    
+
+   
+
+
+    
+
+
+
+
+
+
+
+
+
+/*--------------------------------------------escritorio medio--------------------------------------------*/
+@media (min-width:1024px) {
+    
+ 
+ 
+    .navbar-sm{
+        display: none;
+    }
+
+  header h1{
+      font-size: 40px ;
+      text-align: center;
+
+  }  
+  #video h2{
+      font-size: 30px;
+  }
+  #reseñas h2{
+    font-size: 30px;
+}
+
+#comentario h2{
+    font-size: 30px;
+}
+.navbar-md{
+    display: flex;
+    align-items: center;
+    background-color: #FCF7C9;
+    position:fixed;
+    z-index: 2;
+    width: 100%;
+    
+}
+
+.menu li{
+    padding-left: 1rem;
+    list-style: none;
+    font-size:18px;
+    font-weight: bold;
+    padding-right: 1.875rem;
+    }
+
+.menu{
+    display: flex;
+    padding: 0;
+
+}
+
+
+.menu li a{
+    text-decoration: none;
+   color: #1D1D1B;
+}
+.menu li a:hover{
+   color: #232946;
+}
+
+
+.menu.activado{
+    display: flex;
+}
+
+
+
+.fotorama{
+    padding-top: 12rem;
+}
+
+
+#app p{
+    margin-left: 30px;
+    font-size: 18px;
+text-align: left;
+}
+
+#app .textoapp{
+    margin-left: 30px;
+    font-size: 18px;
+    text-align: left;
+}   
+#video p{
+    font-size: 18px;
+
+}
+
+#reseñas article{
+    background-color: #b8c1ec;
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: 15px 5px 5px grey;
+
+}
+#reseñas h2{
+    margin-bottom: 0;
+}
+
+#comentario .img-fluid{
+    margin-left: 320px;
+
+}
+#comentario p{
+    font-size: 18px;
+
+}
+#descarga .footer{
+    margin-left: 600px;
+}
+#reseñas .valeria{
+    margin-left: 80px;
+}
+#reseñas .img-fluid{
+margin-left: 30px;
+}
+
+#reseñas .valeria h3{
+    margin-left:80px;
+    text-align: left;
+
+}
+#reseñas p{
+    margin-left: 30px;
+    width: 300px;
+    }
+#reseñas .valeria p{
+    line-height: 24.3px;
+}
+ #reseñas .estrella{
+        margin-top: 0;
+    }
+    #reseñas .estrellas{
+        margin-top: 0;
+    }
+    #reseñas .cecilia{
+        margin-left: 150px;
+        }
+    
+        
+      
+}
+
